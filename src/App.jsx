@@ -1,35 +1,12 @@
 import './App.css'
 import logoUts from './assets/img/logo_uts.png'
-import chicaUteista from './assets/img/chica-uteista.png'
 import imgSection2 from './assets/img/imgsection2.jpg'
 import profile1 from './assets/img/perfil2.jpg'
 import profile2 from './assets/img/perfil1.jpg'
 import profile3 from  './assets/img/perfil3.jpg'
-import { useState } from 'react'
-
+import Hero from "./sections/hero"
 
 function App() {
-
-  const [frase, setFrase] =  useState('Click Aqui')
-
-    async function getAphrase() {
-    const result = await fetch('https://api.adviceslip.com/advice')
-    const data =await result.json();
-    const {advice} = data.slip;
-    setFrase(advice);
-    console.log(advice);
-    console.log(data);
-  }
-
-  // const getData = async () => {
-  //   const result = await fetch('https://api.adviceslip.com/advice')
-  //   const data = await result.json();
-  //   const {advice} = data.slip;
-  //   setFrase(advice)
-  //   console.log(advice);
-  //   console.log(data);
-  // }
-
 
   return (
     <>
@@ -62,19 +39,8 @@ function App() {
       {/* este es el cuerpo del sitio */}
       <main className='flex flex-col items-center gap-20'>
 
-        {/* esta es la primera seccion en la cual se encuentra la chica uteista y el buttom de doy uteista */}
-        <div className='flex justify-center items-center my-[40px] mx-[60px] gap-40'>
-          <section className='w-[400px] flex flex-col gap-[20px]'>
-            <h1 className='text-4xl'>construimos los futuros lideres del país</h1>
-            <p>
-              Las unidades Tecnologícas de santander se dedicara a la formacion de persona con sentido etico. 
-              Pensamiento logico y critico
-            </p>
-            <button onClick={getAphrase} className='text-white bg-green-700 rounded-[25px] py-[15px] text-center shadow-xl transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-[1.02] hover:bg-green-800 hover:text-white' href="#">{frase}</button>
-          </section>
-          <img className='w-50% h-[500px] rounded-[15px] shadow-xl'src={chicaUteista} alt="imagen de una chica-uteista"  
-          />
-        </div>
+      {/* en esta parte va el componente hero */}
+      <Hero/>
 
         {/* esta es la segunda secccion en la cual se encuentra un panel con una imagen y una frase de Donald Trump */}
         <section className='grid bg-green-700 w-[1025px] rounded-[15px] gap-[20px] text-white p-[20px] mb-[40px] shadow-xl transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-[1.02] hover:bg-green-800 '>

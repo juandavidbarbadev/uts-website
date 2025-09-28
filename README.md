@@ -25,6 +25,6 @@ El objetivo es practicar el diseño moderno, la organización de componentes y l
    ```bash
    git clone https://github.com/tuusuario/uts-site.git
 2.Instalar dependencias:
+```bash
 npm install
-3.Ejecutar el proyecto:
-npm start
+

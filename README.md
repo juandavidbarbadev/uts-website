@@ -1,12 +1,30 @@
-# React + Vite
+# 🎓 UTS Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto académico desarrollado como sitio web informativo y responsive para la universidad, utilizando **React** y **Tailwind CSS**.  
+El objetivo es practicar el diseño moderno, la organización de componentes y la construcción de interfaces intuitivas.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologías
+- **Frontend:** React, Tailwind CSS  
+- **Lenguajes:** JavaScript, HTML, CSS  
+- **Control de versiones:** Git, GitHub  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Funcionalidades
+- Página informativa con secciones académicas  
+- Componentes reutilizables en React  
+- Diseño responsive adaptable a móviles, tablets y escritorio  
+- Navegación básica entre secciones  
+
+---
+
+## ▶️ Ejecución
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/uts-site.git
+2.Instalar dependencias:
+npm install
+3.Ejecutar el proyecto:
+npm start

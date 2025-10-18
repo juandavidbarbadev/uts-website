@@ -33,7 +33,9 @@ Está pensado como un **ejemplo real de arquitectura web escalable y de código 
 ---
 
 ## 📸 Vista previa
- 
+
+> 🚀 **Deploy en Vercel:**   
+
 
 ---
 
@@ -49,4 +51,5 @@ Ideal para mostrar competencias técnicas en React y Tailwind dentro de un entor
 **Juan David Barba Jaime**  
 Desarrollador Web Front-End | Enfocado en crear experiencias digitales efectivas  
 📍 Colombia  
-🌎 [GitHub](https://github.com/juandavidbarbadev)
+🌎 [GitHub](https://github.com/juandavidbarbadev)  
+🔗 [LinkedIn](https://www.linkedin.com/in/juan-david-dev)

@@ -49,24 +49,34 @@ Ideal para mostrar competencias técnicas en React y Tailwind dentro de un entor
 ## 🛠️ Instalación y Ejecución
 
 Si deseas probar el proyecto localmente:
+## ⚙️ Instalación y Ejecución
 
-```bash
+Si deseas probar el proyecto localmente, sigue estos pasos:
+
+
 # Clonar el repositorio
+```bash
 git clone https://github.com/juandavidbarbadev/uts-website.git
-
+```
 # Entrar al directorio
+```bash
 cd uts-website
-
+```
 # Instalar dependencias
+```
 npm install
-
+```
 # Iniciar el servidor de desarrollo
-npm run dev 
+```
+npm run dev
+```
 
 ## 👨‍💻 Autor
 
 **Juan David Barba Jaime**  
-Desarrollador Web Front-End | Enfocado en crear experiencias digitales efectivas  
+Desarrollador Web Front-End | Enfocado en diseño funcional, UX/UI y desarrollo moderno  
 📍 Colombia  
 🌎 [GitHub](https://github.com/juandavidbarbadev)  
 🔗 [LinkedIn](https://www.linkedin.com/in/juan-david-dev)
+
+
